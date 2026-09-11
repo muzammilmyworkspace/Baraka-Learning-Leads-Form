@@ -6,3 +6,8 @@ Thumbs.db
 # Private business documents stay out of the public repo
 *.docx
 *.pdf
+
+# Vercel local link
+.vercel
+
+.vercel

@@ -12,6 +12,21 @@ Student fills form (Vercel)  ──POST──▶  Apps Script web app  ──▶
                                                 └──▶  email to snz.ventures2025@gmail.com
 ```
 
+## Current deployment (set up 11 Sep 2026)
+
+| What | Where |
+|---|---|
+| Live form | <https://baraka-learning-leads-form.vercel.app> (Vercel, auto-deploys from `main`) |
+| Leads folder (share this with the client) | <https://drive.google.com/drive/folders/16uGfCIAIwkTovYVYsRf_Xu6AJAvSht7-> |
+| Leads sheet | <https://docs.google.com/spreadsheets/d/1rOfHXGSpJ8ZcDzLEXY8gtk0aGpjJYHNRbp26tkz0Rno/edit> |
+| Apps Script project | <https://script.google.com/d/1EJyA6TVu86-gbdbQwmFlRACZkGtwuxnX-9edUi6xg2ynyjNyserxsZbS/edit> |
+| Email alerts go to | snz.ventures2025@gmail.com |
+
+Owner of the Google side: **snz.ventures2025@gmail.com**. The script is managed with
+[clasp](https://github.com/google/clasp) (`.clasp.json` points at the project): after
+editing `apps-script/Code.gs` run `clasp push -f` and then `clasp deploy -i <deploymentId>`
+to update the existing web app without changing its URL.
+
 ## Files
 
 | File | What it is |
